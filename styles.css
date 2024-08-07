@@ -1,0 +1,124 @@
+* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+}
+
+.calculator {
+    background-color: #000000;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.display {
+    background-color: #212121;
+    width: 270px;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 50px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    border-radius: 50px;
+}
+
+button {
+    padding: 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333333;
+    cursor: pointer;
+    border-radius: 60%;
+}
+
+button:hover {
+    background-color: #d0d0d0;
+}
+
+button:active {
+    background-color: #b0b0b0;
+}
+
+.oneDigitRemove {
+    padding: 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333333;
+    cursor: pointer;
+    border-radius: 60%;
+}
+
+.c_btn {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.c_btn:hover {
+    background-color: #ff5722;
+
+}
+
+.c_btn:active {
+    background-color: #dc3300;
+}
+
+.opertors {
+    padding: 20px;
+    font-size: 25px;
+    border: none;
+    background-color: #f08929;
+    color: white;
+    cursor: pointer;
+    border-radius: 60%;
+}
+
+.opertors:hover {
+    background-color: #f58115;
+}
+
+.opertors:active {
+    background-color: #da6900;
+}
+
+.zero {
+    padding: 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333333;
+    cursor: pointer;
+    border-radius: 60%;
+}
+
+.equal_btn {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+.equal_btn:hover {
+    background-color: #43a047;
+
+}
+
+.equal_btn:active {
+    background-color: #287e2c;
+}

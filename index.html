@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./th.jpeg" type="image/x-icon">
+    <title> Calculator </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+
+<body>
+    <div class="calculator">
+        <input class="display" disabled type="text" id="calculator" value="">
+        <div class="buttons">
+            <button class="c_btn" onclick="c()">AC</button>
+            <button class="c_btn" onclick="delet1() ">⌫</button>
+            <button onclick="buttonCLick('')" class="opertors">%</button>
+            <button onclick="buttonCLick('/')" class="opertors">÷</button>
+
+            <button onclick="calculator_f('7')">7</button>
+            <button onclick="calculator_f('8')">8</button>
+            <button onclick="calculator_f('9')">9</button>
+            <button onclick="buttonCLick('*')" class="opertors">x</button>
+
+            <button onclick="calculator_f('4')">4</button>
+            <button onclick="calculator_f('5')">5</button>
+            <button onclick="calculator_f('6')">6</button>
+            <button onclick="buttonCLick('-')" class="opertors">-</button>
+
+            <button onclick="calculator_f('1')">1</button>
+            <button onclick="calculator_f('2')">2</button>
+            <button onclick="calculator_f('3')">3</button>
+            <button onclick="buttonCLick('+')" class="opertors">+</button>
+
+            <button onclick="calculator_f('0')" class="zero">0</button>
+            <button onclick="calculator_f('00')">00</button>
+            <button onclick="buttonCLick('.')">.</button>
+            <button class="equal_btn" onclick="total()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
